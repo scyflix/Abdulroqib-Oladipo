@@ -1,0 +1,81 @@
+/* body Background*/
+h1{
+    text-decoration-color: aquamarine;
+}
+h4{
+    text-align: right;
+}
+h2{
+    background-color: aqua;
+    border-radius: 20px;
+}
+h5{
+    text-align: right;
+}
+body{
+    font-family: Arial,sans-serif;
+    line-height: 1.6;
+    margin:0;
+    padding: 10;
+    color:rgb(0, 0, 0);
+    background-color: khaki;
+
+}
+iframe {
+    width: auto;
+    height: auto;
+}
+
+/* content box */
+.content-box{
+    background-color: blueviolet;
+    max-width: 100%;
+    margin: 0% auto;
+    padding: 10px;
+    box-shadow: 0px 4px 20px rgba(red, green, blue, alpha);
+    border: radius 50%;
+    overflow: hidden;
+}
+img {
+    width: 300px;
+    height: 200px;
+        box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+
+footer {
+    background-color: rgb(115, 228, 222);
+    color: rgb(255, 11, 11);
+    text-align: center;
+    border-radius: 50px;
+    
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+@keyframes colorChange {
+    0% { color: black;}
+    10% { color: red;}
+    20% { color: gold;}
+    30% { color: peru;}
+    40% { color: pink;}
+    50% { color: rgb(152, 37, 56);}
+    60% { color: silver;}
+    70% { color: yellow;}
+    80% { color: gray;}
+    90% { color: orange;}
+    100% { color: green;}
+}
+.animate-word {
+    animation: colorChange 2s infinite;
+    font-weight: bold;
+}
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+iframe {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.958); ;
+}
